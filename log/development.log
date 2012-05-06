@@ -1,0 +1,647 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2007-05-13 13:00:29) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+
+
+MissingSourceFile (no such file to load -- local):
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    .//app/controllers/gyms_controller.rb:1
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:203:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:202:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:94:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:452:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:464:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/inflector.rb:250:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/routing.rb:1284:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/dispatcher.rb:40:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/servers/mongrel.rb:60
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2007-05-13 13:02:53) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+
+
+MissingSourceFile (no such file to load -- local.rb):
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:203:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:202:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:94:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:60:in `depend_on'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:442:in `require_dependency'
+    .//app/controllers/gyms_controller.rb:1
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:203:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:202:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:94:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:452:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:464:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/inflector.rb:250:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/routing.rb:1284:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/dispatcher.rb:40:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/servers/mongrel.rb:60
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2007-05-13 13:04:15) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+
+
+MissingSourceFile (no such file to load -- local):
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    .//app/controllers/gyms_controller.rb:2
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:203:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:202:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:94:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:452:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:464:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/inflector.rb:250:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/routing.rb:1284:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/dispatcher.rb:40:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/servers/mongrel.rb:60
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:10:54) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 0.03574 (27 reqs/sec) | Rendering: 0.02678 (74%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:11:02) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 0.00616 (162 reqs/sec) | Rendering: 0.00242 (39%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:11:14) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 0.01201 (83 reqs/sec) | Rendering: 0.00815 (67%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:14:03) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 38.27121 (0 reqs/sec) | Rendering: 0.00846 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:15:37) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+ERROR: compiling _run_rhtml_47app47views47gyms47index46rhtml RAISED compile error
+script/../config/../app/views/gyms/index.rhtml:13: syntax error, unexpected kIN, expecting kEND
+ foreach gym in @gyms; _erbout.concat "\n"
+               ^
+script/../config/../app/views/gyms/index.rhtml:21: syntax error, unexpected kEND, expecting $end
+Function body: def _run_rhtml_47app47views47gyms47index46rhtml(local_assigns)
+_erbout = ''; _erbout.concat "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\n"
+_erbout.concat "\n"
+_erbout.concat "<html lang=\"en\">\n"
+_erbout.concat "<head>\n"
+_erbout.concat "\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n"
+_erbout.concat "\t<title>index</title>\n"
+_erbout.concat "\t<meta name=\"generator\" content=\"TextMate http://macromates.com/\">\n"
+_erbout.concat "\t<meta name=\"author\" content=\"Alex Kroman\">\n"
+_erbout.concat "\t<!-- Date: 2007-05-13 -->\n"
+_erbout.concat "</head>\n"
+_erbout.concat "<body>\n"
+_erbout.concat "\n"
+ foreach gym in @gyms; _erbout.concat "\n"
+_erbout.concat((h gym.title ).to_s); _erbout.concat "<br />\n"
+_erbout.concat "\n"
+ end ; _erbout.concat "\n"
+_erbout.concat "\n"
+_erbout.concat "</body>\n"
+_erbout.concat "</html>\n"
+_erbout
+end
+Backtrace: script/../config/../app/views/gyms/index.rhtml:21:in `compile_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:319:in `compile_and_render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:301:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:260:in `render_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:806:in `render_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:711:in `render_with_no_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/layout.rb:256:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:50:in `render'
+/usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:50:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:1096:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/filters.rb:632:in `call_filter'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+/usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/rescue.rb:83:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:430:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:430:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/session_management.rb:114:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:330:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/dispatcher.rb:41:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+/usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/servers/mongrel.rb:60
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+/usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/server.rb:39
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+script/server:3
+
+
+ActionView::TemplateError (compile error
+script/../config/../app/views/gyms/index.rhtml:13: syntax error, unexpected kIN, expecting kEND
+ foreach gym in @gyms; _erbout.concat "\n"
+               ^
+script/../config/../app/views/gyms/index.rhtml:21: syntax error, unexpected kEND, expecting $end) on line #13 of app/views/gyms/index.rhtml:
+10: </head>
+11: <body>
+12: 
+13: <% foreach gym in @gyms%>
+14: <%=h gym.title %><br />
+15: 
+16: <% end %>
+
+    #{RAILS_ROOT}/app/views/gyms/index.rhtml:21:in `compile_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:319:in `compile_and_render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:301:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:260:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:806:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:711:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/layout.rb:256:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:50:in `render'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:50:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:1096:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/filters.rb:632:in `call_filter'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/rescue.rb:83:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:430:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:430:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/session_management.rb:114:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:330:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/dispatcher.rb:41:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/servers/mongrel.rb:60
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:16:43) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #13 of app/views/gyms/index.rhtml:
+10: </head>
+11: <body>
+12: 
+13: <% for gym in @gyms%>
+14: <%=h gym.title %><br />
+15: 
+16: <% end %>
+
+    #{RAILS_ROOT}/app/views/gyms/index.rhtml:13:in `_run_rhtml_47app47views47gyms47index46rhtml'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:326:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:326:in `compile_and_render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:301:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_view/base.rb:260:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:806:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:711:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/layout.rb:256:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:50:in `render'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:50:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:1096:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/filters.rb:632:in `call_filter'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/rescue.rb:83:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:430:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:430:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/session_management.rb:114:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/base.rb:330:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/dispatcher.rb:41:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:78:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:618:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:617:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:736:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:720:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:271:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:270:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:127:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:488:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/servers/mongrel.rb:60
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-1.4.1/lib/active_support/dependencies.rb:495:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.2/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.2/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:18:02) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 35.70848 (0 reqs/sec) | Rendering: 0.00310 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:20:41) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 36.00300 (0 reqs/sec) | Rendering: 0.00389 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:21:38) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 39.61472 (0 reqs/sec) | Rendering: 0.00586 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:22:30) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 49.78682 (0 reqs/sec) | Rendering: 0.00342 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:23:37) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 48.29127 (0 reqs/sec) | Rendering: 0.00384 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:24:47) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 45.05237 (0 reqs/sec) | Rendering: 0.00346 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:26:02) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 28.63850 (0 reqs/sec) | Rendering: 0.00354 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:27:45) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 29.17924 (0 reqs/sec) | Rendering: 0.01310 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:28:39) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 30.40680 (0 reqs/sec) | Rendering: 0.00739 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:31:00) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 0.24855 (4 reqs/sec) | Rendering: 0.00656 (2%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:31:04) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 0.14105 (7 reqs/sec) | Rendering: 0.00270 (1%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:32:13) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 0.20518 (4 reqs/sec) | Rendering: 0.00229 (1%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:32:28) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 0.23406 (4 reqs/sec) | Rendering: 0.00606 (2%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:32:42) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 31.00515 (0 reqs/sec) | Rendering: 0.00579 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:33:46) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 35.33287 (0 reqs/sec) | Rendering: 0.00384 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:34:40) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 39.13136 (0 reqs/sec) | Rendering: 0.00702 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:35:47) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 31.79680 (0 reqs/sec) | Rendering: 0.01105 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:36:43) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 35.43683 (0 reqs/sec) | Rendering: 0.01336 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:37:23) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 37.09291 (0 reqs/sec) | Rendering: 0.04603 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:38:02) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 34.71497 (0 reqs/sec) | Rendering: 0.03390 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:39:08) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 1.80485 (0 reqs/sec) | Rendering: 0.00423 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:39:20) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 31.32138 (0 reqs/sec) | Rendering: 0.00897 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:40:06) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 34.05936 (0 reqs/sec) | Rendering: 0.00871 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:40:41) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 2.19269 (0 reqs/sec) | Rendering: 0.00697 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 13:50:30) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 0.72249 (1 reqs/sec) | Rendering: 0.00288 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 14:05:45) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 3.83714 (0 reqs/sec) | Rendering: 0.00613 (0%) | 200 OK [http://0.0.0.0/gyms]
+
+
+Processing GymsController#index (for 127.0.0.1 at 2007-05-13 14:21:04) [GET]
+  Session ID: 26120e601e9071dd97bfe04384661068
+  Parameters: {"action"=>"index", "controller"=>"gyms"}
+Rendering gyms/index
+Completed in 0.48025 (2 reqs/sec) | Rendering: 0.00261 (0%) | 200 OK [http://0.0.0.0/gyms]
